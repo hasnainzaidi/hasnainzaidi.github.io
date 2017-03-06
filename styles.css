@@ -50,6 +50,7 @@ input#input-email{
 }
 
 a:visited{
+  font-family: tahoma;
   color: green;
 }
 
