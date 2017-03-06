@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
   max-width: 960px;
 }
@@ -67,4 +68,9 @@ a:visited{
   main{
     width: 90%;
   }
+=======
+h1{
+  color: red;
+  font-family: helvetica;
+>>>>>>> 181d5a17eca36468985fcb311047e49c1d2b2098
 }
