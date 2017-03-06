@@ -1,3 +1,70 @@
 body{
-  background: blue;
+  max-width: 960px;
+}
+
+#external-links{
+  width:20%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+}
+
+main {
+  width: 70%;
+  display: inline-block;
+  padding: 10px;
+}
+
+div#family{
+  padding-left: 20px;
+  border-style: solid;
+  border-width: 2px;
+}
+
+form{
+  background-image: url("background.jpg");
+  background-position: 5px 10px;
+  background-repeat: repeat-x;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-family: helvetica;
+}
+
+footer{
+  border-top-style: solid;
+  border-top-width: 2px;
+  text-align: center;
+}
+
+div#form-name{
+  padding-bottom: 2px;
+}
+
+input#input-email{
+  margin-left: 3px;
+}
+
+.link{
+  font-family: tahoma;
+  color: red;
+}
+
+a:visited{
+  color: green;
+}
+
+@media screen and (max-width: 935px){
+  img{
+    width: 90%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 800px){
+  #external-links{
+    width:90%;
+  }
+  main{
+    width: 90%;
+  }
 }

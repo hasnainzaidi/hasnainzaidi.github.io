@@ -2,46 +2,14 @@
 <html>
 <head>
   <title>Hasnain's Solo Challenge</title>
-  <link rel="sylesheet" href="styles.css" type="text/css" >
+  <link rel="stylesheet" href="styles.css" type="text/css" >
 </head>
 <body>
-  <h1>About Hasnain</h1>
-  
-  <div>
-    <h2>Hasnain's Family</h2>
-    <img src="wife.jpg" alt="Hasnain & Saira" height="400" width="600" />
-    <h3>Things I love about my wife</h3>
-    <ul>
-      <li>Her spirit of adventure</li>
-      <li>Her loving nature</li>
-      <li>Her insane level of support</li>
-      <li>Her fearlessness</li>
-    </ul>
-  </div>
 
-  <br>
-
-  <div>
-    <h2>Hasnain's Company</h2>
-    <img src="Alameda_Interior.JPG" alt="Tava Kitchen, Alameda" height="400" width="600" />
-    <p>Tava Kitchen</p>
-  </div>
-
-  <br>
-
-  <div>
-    <h2>Hasnain's Hobbies</h2>
-    <img src="http://bikersnews.net/wp-content/uploads/images/indian-motorcycle_1327.jpg" alt="Indian Scout 2016" height="400" width="600" />
-    <p>My motorcycle</p>
-    <p><a href="http://bikersnews.net/wp-content/uploads/images/indian-motorcycle_1327.jpg">PC: Biker News</a></p>
-  </div>
-
-  <br>
-  
-  <div>
+<div id="external-links">
     <h2>Other sites to check out</h2>
     
-      <a href="http://www.andreacoravos.com/">About: Andrea Coravos</a>
+      <a class="link" href="http://www.andreacoravos.com/">About: Andrea Coravos</a>
       <br>
       <ul>
         <li>Simple GitHub page but looks way nicer - CSS?</li>
@@ -49,7 +17,7 @@
         <li>Call to action at the bottom</li>
       </ul>
     
-      <a href="hhttp://tim.blog/about/">About Tim Ferris</a>
+      <a class="link" href="http://tim.blog/about/">About Tim Ferris</a>
       <br>
       <ul>
         <li>Big banner  touting key statistics</li>
@@ -66,34 +34,71 @@
 
   </div>
 
-  <br>
+  <main>
+    <h1>About Hasnain</h1>
+  
+    <div id="family">
+      <h2>Hasnain's Family</h2>
+      <img src="wife.jpg" alt="Hasnain & Saira" height="400" width="600" />
+      <h3>Things I love about my wife</h3>
+      <ul>
+        <li>Her spirit of adventure</li>
+        <li>Her loving nature</li>
+        <li>Her insane level of support</li>
+        <li>Her fearlessness</li>
+      </ul>
+    </div>
 
-  <div>
-    <form action="submission.html" method="get">
-      <fieldset>
-        <legend><h4>Contact Us</h4></legend>
-        <div>
-          <label>Name:</label>
-          <input type="text" name="Name">
-        </div>
+    <br>
+
+    <div>
+      <h2>Hasnain's Company</h2>
+      <img src="Alameda_Interior.JPG" alt="Tava Kitchen, Alameda" height="400" width="600" />
+      <p>Tava Kitchen</p>
+    </div>
+
+    <br>
+
+    <div>
+      <h2>Hasnain's Hobbies</h2>
+      <img src="http://bikersnews.net/wp-content/uploads/images/indian-motorcycle_1327.jpg" alt="Indian Scout 2016" height="400" width="600" />
+      <p>My motorcycle</p>
+      <p><a class="link" href="http://bikersnews.net/wp-content/uploads/images/indian-motorcycle_1327.jpg">PC: Biker News</a></p>
+    </div>
+
+    <br>
+
+    <div>
+      <form action="submission.html" method="get">
+        <fieldset>
+          <legend><h4>Contact Us</h4></legend>
+          <div id="form-name">
+            <label>Name:</label>
+            <input type="text" name="Name">
+          </div>
         
-        <div>
-          <label>Email:</label>
-          <input type="Email" name="Email">
-        </div>
+          <div id="form-email">
+            <label>Email:</label>
+            <input id="input-email" type="Email" name="Email">
+          </div>
     
-        <br>
+          <br>
     
-        <div>
-          <label>Message</label>
-          <textarea rows="4" cols=40 placeholder="Enter Message Here"></textarea>
-        </div>
+          <div>
+            <label>Message</label>
+            <textarea rows="4" cols=40 placeholder="Enter Message Here"></textarea>
+          </div>
     
-        <br>
+          <br>
     
-        <button type="submit">Send!</button>
-      </fieldset>
-    </form>
-  </div>
+          <button type="submit">Send!</button>
+        </fieldset>
+      </form>
+    </div>
+</main>
+    
+<footer>
+    <p>Page last updated March 2017</p>
+  </footer>
 </body>
 </html>
